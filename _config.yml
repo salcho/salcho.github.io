@@ -1,36 +1,33 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+title: "The Weekend"
+author: "Sal"
+description: "Made with <i style=\"color: #f45;\">patience</i>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+date_format: "%d %B, %Y"
 
 remote_theme: niklasbuschmann/contrast@v2.11
 
 # Layout
 
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+show_excerpts: true
+show_frame: true         
+show_sidebar: false     
+minimal: false          
+future: true
 
 # Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
+navigation:                
   - {file: "index.html"}
-  #- {file: "README.md"}
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+external:                  # for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/salchoman"}
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
 
 # GitHub
 domain: salcho.github.io       # force HTTPS by skipping the protocol
 url: https://salcho.github.io  # base URL
+baseurl: /
 
 plugins:
  - jekyll-feed
