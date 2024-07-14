@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The USB protocol & HID descriptors"
-date: 2024-07-14 13:37:00
+date: 2024-07-05 13:37:00
 ---
 
 After 2+ years of pandemic, chip shortage, economic warfare and supply chain disruptions, I've finally received my [Cynthion](https://greatscottgadgets.com/cynthion/) device. 
