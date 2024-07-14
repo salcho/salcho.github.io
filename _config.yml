@@ -28,6 +28,10 @@ comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
+# GitHub
+domain: salcho.github.io       # force HTTPS by skipping the protocol
+url: https://salcho.github.io  # base URL
+
 plugins:
  - jekyll-feed
  - jekyll-remote-theme
