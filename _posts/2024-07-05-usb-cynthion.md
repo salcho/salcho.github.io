@@ -29,7 +29,7 @@ lsusb -s 003:020 -vvvv
 
 ## Find the report descriptor of a HID device
 
-For whatever reason, lsof refuses to provide report descriptor for some (all?) HID devices. To work around this, I've used `usbhid-dump` in combination with `hidrd-convert`, which pretty prints the raw binary descriptor.
+For whatever reason, lsof refuses to provide report descriptor for some (all?) HID devices. To work around this, I've used [usbhid-dump](https://github.com/DIGImend/usbhid-dump) in combination with [hidrd-convert](https://github.com/DIGImend/hidrd), which pretty prints the raw binary descriptor.
 
 ```bash
 sudo usbhid-dump | grep -v : | xxd -r -p | hidrd-convert -o spec
